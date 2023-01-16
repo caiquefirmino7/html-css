@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body{
+    background-color: aliceblue;
+}
+
+
+h1{
+    color: rgb(245, 243, 241);
+    background-color: red;
+}
+
+h2{
+    color: rgb(26, 88, 221);
+}

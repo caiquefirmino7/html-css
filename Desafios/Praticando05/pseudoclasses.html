@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        #principal{
+            display: flex; 
+            width: 600px;
+            border: none;
+            background-color: white;
+            
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: lightgrey;
+            text-align: center;
+            border: 2px solid black;
+            display: inline-block;
+            margin: 2px;
+        }
+
+    
+       #d1:hover{
+            background-color: yellow;
+       }
+
+       #d1 > p{
+        display: none;
+       }
+
+       #d1:hover > p{
+        display: block;
+       }
+
+       #d2:hover{
+        background-image: linear-gradient(to right, red, blue, black);
+        color: aliceblue;
+       }
+      
+       #d3:hover{
+        background-image: url(unnamed.jpg);
+        
+       }
+
+       #d3 > p{
+            display: none;
+            
+       }
+       
+       #d3:hover >p{
+        display: block;
+        color: white;
+        
+       }
+
+
+    </style>
+</head>
+<body>
+    <h1>Praticando Pseudo-Classes</h1>
+    <div id="principal">
+        <div id="d1"><p>Texto escondido 1</p></div>
+        <div id="d2">  <p>texto amostra 02</p></div>
+       <div id="d3"> <p>texto escondido 03</p></div>
+    </div>
+
+    <h1>Peseudo classes com uso de id e class juntos</h1>
+
+
+    <div id="principal">
+        <div class="imitacao" id="d1"><p>Texto escondido</p></div>
+        <div class="imitacao" id="d2"> <p>Texto amostra</p></div>
+        <div class="imitacao" id="d3"> <p>Texto escondido</p></div>
+    </div>
+    
+</body>
+</html>

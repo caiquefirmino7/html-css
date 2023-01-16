@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'modern' ;
+    src: url(fonts/Modern\ Prestige\ DEMO.otf) format('opentype');
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-image: linear-gradient(to right, #8F0700, #DB0B01, #FF2519);
+   
+}
+
+.links-externos{
+    font-style: italic;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.links-externos:hover{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Modern';
+    font-size: 4em;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+main{
+    height: auto;
+    background-color: #ffffff;
+    width: auto;
+    padding: 20px;
+    margin: 3vw;
+}
+
+
+#video{
+    width: 560px;
+    height: 360px;
+    border: 10px solid rgba(0, 0, 0, 0.986);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(156, 152, 152, 0.664) ;
+}
+.videos{
+    text-align: center;
+}
+
+#foto-principal{
+    text-align: center;
+}
+
+#foto-principal img{
+    border-radius: 10px;
+    box-shadow: 2px 1px 20px rgba(0, 0, 0, 0.322);
+}
+
+.imagens{
+    text-align: center;
+}
+
+span:hover{
+    color: green;
+}
+
+.letra-vermelha:hover{
+    color: red;
+}
+

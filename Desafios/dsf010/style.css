@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+@font-face {
+    font-family: 'droid' ;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: rgb(222, 226, 187);
+    margin: 0px ;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+main{
+    
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+  
+  margin-left: 4vh;
+  margin-right: 4vw;
+  border-radius: 10px;
+   
+}
+
+#texto-font-principal{
+    font-family: 'droid';
+    color: #083618;
+    
+    
+}
+
+.texto-font{
+    font-family: 'droid';
+    color: #083618;
+    background-image: linear-gradient(to right,#1bb55167,#21db6246,#25f56e17);
+}
+
+p > a{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right,#1bb551b4,#21db6291,#25f56eb2);
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    }
+
+    
+
+    div > a{
+        color: rgb(240, 247, 240);
+        text-decoration: none;
+        margin-left: 40px;
+    }
+
+    #menu{
+        padding-bottom: 10px;
+        
+    }
+    
+.menus:hover{
+    background-color:#1BB551;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+
+header{
+    background-image: linear-gradient(to bottom,#1BB551,#117534,#083618  );
+    color: white;
+   padding-top: 10px;
+   
+
+}
+
+header > h1{
+    text-align: center;
+
+}
+
+header > h2{
+    text-align: center;
+    font-size: 17px;
+    
+}
+
+
+
+.conteudo-centro{
+    text-align: center;
+}
+
+#outros-assuntos{
+    padding: 30px;
+    background-color: #b1f0c7;
+    margin: 50px;
+    border-radius: 50px;
+    
+}
+
+li{
+    list-style: none;
+   
+}
+#lista1{
+    display: inline-flex;
+    border: none;
+   padding-right: 400px;
+   
+}
+
+#lista2{
+    display: inline-flex;
+    border: none;
+   
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+
+}
+
+
+#cumprimentos{
+    text-align: center;
+   
+margin-top: -10px;
+}
